@@ -154,16 +154,25 @@ SpriteAtlas:
   - {fileID: -446217570, guid: b34c4a76a0127474d9da19a32554aed6, type: 3}
   - {fileID: -98804348, guid: b34c4a76a0127474d9da19a32554aed6, type: 3}
   - {fileID: 686033360, guid: b34c4a76a0127474d9da19a32554aed6, type: 3}
+  - {fileID: 1388867440, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: -1160922538, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -1997270349, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -1219568380, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: 1571286047, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -371685501, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: 1293395190, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: 911274683, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: 1552449273, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: -1437468651, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: -1582076201, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: 962925115, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: -73008554, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -1371671195, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: 437416232, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -512780581, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: 518443638, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -260453271, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: -829025334, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -748314205, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -1440271835, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -768025609, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
@@ -273,16 +282,25 @@ SpriteAtlas:
   - TilesetFloor_58
   - TilesetFloor_39
   - TilesetFloor_38
+  - TilesetHouse_19
+  - TilesetHouse_18
   - TilesetHouse_11
   - TilesetHouse_10
   - TilesetHouse_13
   - TilesetHouse_12
   - TilesetHouse_15
   - TilesetHouse_14
+  - TilesetHouse_17
+  - TilesetHouse_16
+  - TilesetHouse_20
   - TilesetHouse_2
+  - TilesetHouse_21
   - TilesetHouse_3
+  - TilesetHouse_22
   - TilesetHouse_0
+  - TilesetHouse_23
   - TilesetHouse_1
+  - TilesetHouse_24
   - TilesetHouse_6
   - TilesetHouse_7
   - TilesetHouse_4
