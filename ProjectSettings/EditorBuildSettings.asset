@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Forest_1.unity
+    guid: e82ed73c80e5a5746bdb25f598f3d768
+  - enabled: 1
     path: Assets/Scenes/Forest_2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Forest_3.unity
+    guid: 442dc09e8e537ba478f124169a4b5f6f
+  - enabled: 1
+    path: Assets/Scenes/Forest_crossing 1.unity
+    guid: 1d3130ca30f8b5b4a81f8d5e6a02b76c
+  - enabled: 1
+    path: Assets/Scenes/Forest_curve.unity
+    guid: 1697e834082dfea4ea54ab2fd9ebaae0
+  - enabled: 1
+    path: Assets/Scenes/Suburbua.unity
+    guid: 38fcc58f9e073cd49afb50db6eed5c16
+  - enabled: 1
+    path: Assets/Scenes/Beach.unity
+    guid: cc0ae6b93c90d964aa14f0fec3b109bb
+  - enabled: 1
+    path: Assets/Scenes/Beach_port.unity
+    guid: 55e2116ab25e1794588301af73dadc2d
+  - enabled: 1
+    path: Assets/Scenes/Temple.unity
+    guid: 642f42a6a206d094e83b4f0f1e046bb1
   m_configObjects: {}
