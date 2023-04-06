@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="" />
+    <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +40,7 @@
       <updated>1668082921722</updated>
       <workItem from="1668082927024" duration="2789000" />
       <workItem from="1668099341236" duration="1050000" />
+      <workItem from="1680815848700" duration="605000" />
     </task>
     <servers />
   </component>
