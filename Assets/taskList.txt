@@ -1,0 +1,12 @@
+Po naciśnięciu spacji, zamach mieczem
+	- bug łapie trigger na colider miecza 
+	- collider buga zadaje obrażenia graczowi 
+
+Plansza ddialogowa:
+	- opcje wybieramy jako 1,2 itd
+	- na spacji możemy przewijać dialog
+	- freezujemy wtedy postać 
+
+Skrzynki można lootować, zmienia się wtedy ich textura 
+
+Dodać EQ
