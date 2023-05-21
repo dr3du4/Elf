@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class weedBugBasic: MonoBehaviour
 {
-    [Range( 0.01f, 20.0f )] [SerializeField] private float moveSpeed = 0.1f; 
+    [Range( 0.01f, 20.0f )] [SerializeField] private float moveSpeed = 1.0f; 
     
     
     private bool isFacingRight=false;
@@ -82,25 +82,25 @@ public class weedBugBasic: MonoBehaviour
              animator = GetComponent<Animator>();
     }
 
-   // private IEnumerator KillOnAnimationEnd()
-    //{
-    //    yield return new WaitForSeconds(0.1f);
-    //    gameObject.SetActive(false);
-    //}
-    
+    private IEnumerator KillOnAnimationEnd()
+    {
+        yield return new WaitForSeconds(0.1f);
+        gameObject.SetActive(false);
+    }
+    //Weapon.isSwing = true;
     //private void OnTriggerEnter2D(Collider2D other)
-    //{
-     //   if (other.CompareTag("Player") == true)
-      //  {
-       //     if (other.gameObject.transform.position.y > transform.position.y)
-         //   {
-           //     animator.SetBool("isDead",true);
-            //    StartCoroutine(KillOnAnimationEnd());
-           // }
+   // {
+      // if (other.CompareTag("Weapon") == true)
+       // {
+        //    if (Weapon.)
+       //     {
+         //       animator.SetBool("isDead", true);
+          //      StartCoroutine(KillOnAnimationEnd());
+          //  }
         //}
-    //}
-    
-    
+  //  }
+
+
     private void Flip()
     {
          

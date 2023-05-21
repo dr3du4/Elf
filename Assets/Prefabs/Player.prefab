@@ -102,9 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e20b6c8149e789b43a2a77b4b45b3d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.016
-  rb: {fileID: 6964021180082455501}
-  animator: {fileID: 6964021180082455490}
+  moveSpeed: 0.5
+  lives: 3
 --- !u!50 &6964021180082455501
 Rigidbody2D:
   serializedVersion: 4
@@ -190,8 +189,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5848203906940042805}
   - component: {fileID: 1660505475644069959}
+  - component: {fileID: 2067328039147980538}
   m_Layer: 0
-  m_Name: Sprite (1)
+  m_Name: sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264,3 +264,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2067328039147980538
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8851354897000111718}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8cb4763f33a6ed9459ca35aca0634999, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
