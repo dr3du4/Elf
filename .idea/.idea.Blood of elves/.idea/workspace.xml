@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/weedBugBasic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/weedBugBasic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Suburbua.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Suburbua.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <workItem from="1668099341236" duration="1050000" />
       <workItem from="1680815848700" duration="1210000" />
       <workItem from="1684599847231" duration="2630000" />
-      <workItem from="1684674838029" duration="6090000" />
+      <workItem from="1684674838029" duration="7873000" />
     </task>
     <servers />
   </component>
