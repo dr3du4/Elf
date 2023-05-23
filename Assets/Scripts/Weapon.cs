@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public Boolean isSwing = false;
+    public bool isSwing = false;
     private Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -18,8 +18,10 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) == true)
         {
-            Debug.Log("click");
+            
             animator.SetTrigger("swing");
+            
+            
         }
     }
     

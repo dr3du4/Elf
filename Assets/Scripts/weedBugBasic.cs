@@ -12,7 +12,8 @@ public class weedBugBasic: MonoBehaviour
     private Animator animator;
     public float moveRange = 1.0f;
     private bool isMovingRight = true;
-    
+    public Weapon weapon;
+    private int healthPoints = 40;
     private float startPositionX;
     // Start is called before the first frame update
     void Start()
@@ -80,6 +81,7 @@ public class weedBugBasic: MonoBehaviour
     {
         startPositionX = this.transform.position.x;
              animator = GetComponent<Animator>();
+            
     }
 
     private IEnumerator KillOnAnimationEnd()
@@ -87,19 +89,23 @@ public class weedBugBasic: MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         gameObject.SetActive(false);
     }
-    //Weapon.isSwing = true;
-    //private void OnTriggerEnter2D(Collider2D other)
-   // {
-      // if (other.CompareTag("Weapon") == true)
-       // {
-        //    if (Weapon.)
-       //     {
-         //       animator.SetBool("isDead", true);
-          //      StartCoroutine(KillOnAnimationEnd());
-          //  }
-        //}
-  //  }
-
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {   
+       if (other.CompareTag("Weapon") == true && Input.GetKey(KeyCode.Space) == true)
+        {   Debug.Log("Weapon touched");
+            healthPoints -=10;
+            if (healthPoints <= 0)
+            {   Debug.Log("Deduwa");
+                Destroy(gameObject);
+            }
+        }
+    }
+//if (weapon.isSwing)
+           //{
+            //    animator.SetBool("isDead", true);
+            //    StartCoroutine(KillOnAnimationEnd());
+           // }
 
     private void Flip()
     {
