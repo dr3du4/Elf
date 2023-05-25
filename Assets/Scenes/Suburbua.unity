@@ -76121,8 +76121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 123196691}
   lines:
-  - Start Dialogue
-  - Second Prompt
+  - "JEBA\u0106 POLITECHNIKE GdANSKOM"
+  - TUCHOM GANG
   textSpeed: 0.3
 --- !u!114 &1750933514
 MonoBehaviour:

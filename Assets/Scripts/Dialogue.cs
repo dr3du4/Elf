@@ -15,10 +15,15 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text = string.Empty; // should be in Awake
-        StartDialogue(); // this line should be executed after dialog button clicked
+        
 
     }
+
+    void Awake()
+    {
+        textComponent.text = string.Empty;
+    }
+    
 
     // Update is called once per frame
     void Update()
@@ -39,8 +44,8 @@ public class Dialogue : MonoBehaviour
         
     }
 
-    void StartDialogue()
-    {
+    public void StartDialogue()
+    {   gameObject.SetActive(true);
         index = 0;
         StartCoroutine(TypeLine());
     }
