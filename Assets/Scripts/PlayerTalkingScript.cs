@@ -5,22 +5,17 @@ using UnityEngine;
 public class PlayerTalkingScript : MonoBehaviour
 {
     public Dialogue dialog;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
+    
 
-    }
     private void OnTriggerEnter2D(Collider2D other)
-    {   
-        if (other.CompareTag("TraderTalkingArea") == true)
-        {   dialog.StartDialogue();
-            
+    {
+        if (other.CompareTag("TraderTalkingArea") )
+        {   Debug.Log("In area");
+            if(Input.GetKey(KeyCode.Space))
+            {
+                dialog.StartDialogue();
+            }
         }
     }
 }

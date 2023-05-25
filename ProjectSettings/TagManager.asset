@@ -6,6 +6,8 @@ TagManager:
   tags:
   - enemy
   - Weapon
+  - TalkingArea
+  - TraderTalkingArea
   layers:
   - Default
   - TransparentFX

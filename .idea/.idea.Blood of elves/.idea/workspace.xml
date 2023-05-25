@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Forest_crossing 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest_crossing 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Suburbua.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Suburbua.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/97307e476b3672e72ffb742fbc4605ff--leather-texture-brown-leather.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/97307e476b3672e72ffb742fbc4605ff--leather-texture-brown-leather.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <workItem from="1684599847231" duration="2630000" />
       <workItem from="1684674838029" duration="8179000" />
       <workItem from="1684824740536" duration="5536000" />
-      <workItem from="1685010920141" duration="3366000" />
+      <workItem from="1685010920141" duration="4952000" />
     </task>
     <servers />
   </component>
