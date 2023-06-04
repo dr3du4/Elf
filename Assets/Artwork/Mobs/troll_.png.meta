@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 07e88a33fb52da340b27df004033b611
+guid: b480dc419ec2df14db80c09392ec9668
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ALL_0
+      name: troll__0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 2528
-        width: 31
-        height: 31
+        x: 102
+        y: 120
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45fb6059c3cdc9748baa9e166888d89c
-      internalID: 1815859622
+      spriteID: ff65c58d107df5b41a64e685083799cf
+      internalID: -1205631377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALL_1
+      name: troll__1
       rect:
         serializedVersion: 2
-        x: 385
-        y: 2336
-        width: 31
-        height: 31
+        x: 150
+        y: 73
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,71 +151,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a6c8c69dc3375e4d88a42c9cdf1de89
-      internalID: -155153122
+      spriteID: 6fb4dcca70d8521469c3622ae008917f
+      internalID: -2027359463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALL_2
+      name: troll__2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2020
-        width: 21
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 173
+        y: 96
+        width: 12
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bbc8eb71258f5641860c30121e77927
-      internalID: 1256259582
+      spriteID: 9e3519e27edac9f4fbaa435c31bf2eed
+      internalID: -1883227998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALL_3
+      name: troll__3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1981
-        width: 32
-        height: 32
+        x: 169
+        y: 0
+        width: 16
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f818ae0c2f2c70408769c87f7f8846e
-      internalID: -371592384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ALL_4
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 1984
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be272e4d02c2da34785a5e44447606aa
-      internalID: -1789739920
+      spriteID: a6efe1dfce9c75d40b5e8536e4e50713
+      internalID: -777329792
       vertices: []
       indices: 
       edges: []
@@ -231,11 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ALL_3: 1256259582
-      ALL_2: -449782454
-      ALL_0: 1815859622
-      ALL_4: -371592384
-      ALL_1: -155153122
+      troll__2: -1883227998
+      troll__1: -2027359463
+      troll__0: -1205631377
+      troll__3: -777329792
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

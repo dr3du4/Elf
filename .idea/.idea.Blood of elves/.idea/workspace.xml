@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Items/Katana/ALL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Items/Katana/ALL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,8 @@
       <workItem from="1684824740536" duration="5536000" />
       <workItem from="1685010920141" duration="4952000" />
       <workItem from="1685254398203" duration="732000" />
-      <workItem from="1685459408711" duration="1683000" />
+      <workItem from="1685459408711" duration="1684000" />
+      <workItem from="1685910738222" duration="358000" />
     </task>
     <servers />
   </component>
