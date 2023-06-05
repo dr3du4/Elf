@@ -240,6 +240,7 @@ GameObject:
   - component: {fileID: 4443867232476711464}
   - component: {fileID: 2212904576113108920}
   - component: {fileID: 4443867232476711470}
+  - component: {fileID: 1833179258180218572}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -336,7 +337,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833179258180218572}
+        m_TargetAssemblyTypeName: ButtonMenuMenager, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1833179258180218572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4443867232476711468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd95a5b8231a14c83225487ed1eb04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4443867233127867489
 GameObject:
   m_ObjectHideFlags: 0
