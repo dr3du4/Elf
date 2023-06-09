@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Forest_curve.unity
     guid: 1697e834082dfea4ea54ab2fd9ebaae0
   - enabled: 1
-    path: Assets/Scenes/Suburbua.unity
+    path: Assets/Scenes/Suburbia.unity
     guid: 38fcc58f9e073cd49afb50db6eed5c16
   - enabled: 1
     path: Assets/Scenes/Beach.unity

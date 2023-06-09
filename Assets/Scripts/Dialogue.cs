@@ -50,6 +50,11 @@ public class Dialogue : MonoBehaviour
         StartCoroutine(TypeLine());
     }
 
+    public void StopDialogue()
+    {
+        gameObject.SetActive(false);
+    }
+
     IEnumerator TypeLine()
     {
         foreach (char c in lines[index].ToCharArray())
