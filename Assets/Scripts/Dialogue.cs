@@ -53,6 +53,10 @@ public class Dialogue : MonoBehaviour
     public void StopDialogue()
     {
         gameObject.SetActive(false);
+        StopCoroutine(TypeLine());
+        index = 0;
+        textComponent.text = "";
+
     }
 
     IEnumerator TypeLine()

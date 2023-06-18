@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8141295751070332250}
-  - component: {fileID: 6774901781087605695}
   m_Layer: 6
   m_Name: talkingArea
   m_TagString: Player
@@ -32,20 +31,6 @@ Transform:
   m_Father: {fileID: 8887890178628140697}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6774901781087605695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171996684189400851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f6ce13bb257aa14ea673fc82836619f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialog: {fileID: 0}
-  startTalking: 0
 --- !u!1 &4163257570549579777
 GameObject:
   m_ObjectHideFlags: 0

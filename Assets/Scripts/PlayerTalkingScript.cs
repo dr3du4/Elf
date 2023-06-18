@@ -7,9 +7,12 @@ public class PlayerTalkingScript : MonoBehaviour
 {
     public Dialogue dialog;
     public bool startTalking = false;
+    public GameObject player;
+    public GameObject trader;
     
     
-
+// Możesz teraz użyć wartości "distance" w swoim kodzie
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("TraderTalkingArea") )
@@ -18,15 +21,21 @@ public class PlayerTalkingScript : MonoBehaviour
         }
        
     }
-    private void OnTriggerExit(Collider2D other)
-    {
-        if (other.CompareTag("TraderTalkingArea") )
-        {
-            startTalking = false;
-        }
-    }
+    //private void OnTriggerExit(Collider2D other)
+    //{
+    //    if (other.CompareTag("TraderTalkingArea") )
+   //     {
+    //        startTalking = false;
+    //    }
+   // }
     void Update()
     {
+        
+        Vector3 position1 = player.transform.position;
+        Vector3 position2 = trader.transform.position;
+        float distance = Vector3.Distance(position1, position2);
+        
+
         if (Input.GetKeyDown(KeyCode.E) && startTalking)
         {
             Debug.Log("In area");
@@ -34,11 +43,15 @@ public class PlayerTalkingScript : MonoBehaviour
                 dialog.StartDialogue();
             }
         }
-        else if (startTalking == false)
-        {
-            dialog.StopAllCoroutines();
-        }
 
+        if (distance > 0.20)
+        {
+            dialog.StopDialogue();
+        }
+    }
+
+    void Awake()
+    {
         
     }
 }
