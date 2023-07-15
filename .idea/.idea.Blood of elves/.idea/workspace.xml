@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Suburbia.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Suburbia.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
@@ -60,7 +60,8 @@
       <workItem from="1685910738222" duration="1192000" />
       <workItem from="1686346615801" duration="1351000" />
       <workItem from="1687036033928" duration="1036000" />
-      <workItem from="1687104634068" duration="2779000" />
+      <workItem from="1687104634068" duration="3375000" />
+      <workItem from="1689431028984" duration="1702000" />
     </task>
     <servers />
   </component>

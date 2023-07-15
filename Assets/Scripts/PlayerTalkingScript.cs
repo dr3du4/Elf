@@ -39,6 +39,8 @@ public class PlayerTalkingScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && startTalking)
         {
             Debug.Log("In area");
+            Debug.Log(dialog.isClicked);
+            if(dialog.isClicked==false)
             {
                 dialog.StartDialogue();
             }

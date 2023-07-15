@@ -7,7 +7,7 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
-
+    public bool isClicked = false;
     public string[] lines;
     private int index;
     public float textSpeed;
@@ -45,7 +45,9 @@ public class Dialogue : MonoBehaviour
     }
 
     public void StartDialogue()
-    {   gameObject.SetActive(true);
+    {
+        isClicked = true;
+        gameObject.SetActive(true);
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -56,6 +58,7 @@ public class Dialogue : MonoBehaviour
         StopCoroutine(TypeLine());
         index = 0;
         textComponent.text = "";
+        isClicked = false;
 
     }
 
