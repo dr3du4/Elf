@@ -94,7 +94,7 @@ public class weedBugBasic: MonoBehaviour
     {   
        if (other.CompareTag("Weapon") == true && Input.GetKey(KeyCode.Space) == true)
         {   Debug.Log("Weapon touched");
-            healthPoints -=10;
+            healthPoints -= SwordDisplay.damage;
             if (healthPoints <= 0)
             {   Debug.Log("Deduwa");
                 Destroy(gameObject);

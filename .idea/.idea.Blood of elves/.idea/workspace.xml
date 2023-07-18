@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Heroes 1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Heroes 1/SpriteSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Heroes 1/SpriteSheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwordDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwordDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/weedBugBasic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/weedBugBasic.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <workItem from="1687104634068" duration="3375000" />
       <workItem from="1689431028984" duration="1702000" />
       <workItem from="1689520188730" duration="4726000" />
-      <workItem from="1689701968346" duration="2754000" />
+      <workItem from="1689701968346" duration="4618000" />
     </task>
     <servers />
   </component>
