@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf95fa47ae7cfa4e8653d74aef171ff, type: 3}
   m_Name: FirstSword
   m_EditorClassIdentifier: 
-  name: 
-  price: 0
-  artwork: {fileID: 0}
-  level: 
-  plote: 
-  attack: 0
-  def: 0
-  speed: 0
-  knowladge: 0
-  power: 0
+  name: NAKURWIATOR
+  price: 2137
+  artwork: {fileID: 1815859622, guid: 07e88a33fb52da340b27df004033b611, type: 3}
+  level: 231
+  plote: 3213
+  attack: 1000
+  def: 2
+  speed: 2
+  knowladge: 2
+  power: 2
