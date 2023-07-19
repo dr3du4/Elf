@@ -15,11 +15,7 @@ public class weedBugBasic: MonoBehaviour
     public Weapon weapon;
     private int healthPoints = 40;
     private float startPositionX;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  
 
     // Update is called once per frame
     void Update()
@@ -101,11 +97,7 @@ public class weedBugBasic: MonoBehaviour
             }
         }
     }
-//if (weapon.isSwing)
-           //{
-            //    animator.SetBool("isDead", true);
-            //    StartCoroutine(KillOnAnimationEnd());
-           // }
+
 
     private void Flip()
     {

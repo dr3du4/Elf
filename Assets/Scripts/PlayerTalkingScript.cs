@@ -10,8 +10,7 @@ public class PlayerTalkingScript : MonoBehaviour
     public GameObject player;
     public GameObject trader;
     
-    
-// Możesz teraz użyć wartości "distance" w swoim kodzie
+
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,13 +20,6 @@ public class PlayerTalkingScript : MonoBehaviour
         }
        
     }
-    //private void OnTriggerExit(Collider2D other)
-    //{
-    //    if (other.CompareTag("TraderTalkingArea") )
-   //     {
-    //        startTalking = false;
-    //    }
-   // }
     void Update()
     {
         
@@ -52,8 +44,5 @@ public class PlayerTalkingScript : MonoBehaviour
         }
     }
 
-    void Awake()
-    {
-        
-    }
+   
 }

@@ -12,12 +12,7 @@ public class Dialogue : MonoBehaviour
     private int index;
     public float textSpeed;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-
-    }
+  
 
     void Awake()
     {
