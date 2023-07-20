@@ -9,7 +9,8 @@ public class PlayerTalkingScript : MonoBehaviour
     public bool startTalking = false;
     public GameObject player;
     public GameObject trader;
-    
+    public float talkRadius;
+    public GameObject infoWindow;
 
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,8 +27,11 @@ public class PlayerTalkingScript : MonoBehaviour
         Vector3 position1 = player.transform.position;
         Vector3 position2 = trader.transform.position;
         float distance = Vector3.Distance(position1, position2);
-        
 
+        if (distance < talkRadius)
+        {
+            infoWindow.SetActive(true);
+        }
         if (Input.GetKeyDown(KeyCode.E) && startTalking)
         {
             Debug.Log("In area");
@@ -35,11 +39,13 @@ public class PlayerTalkingScript : MonoBehaviour
             if(dialog.isClicked==false)
             {
                 dialog.StartDialogue();
+                
             }
         }
 
-        if (distance > 0.20)
+        if (distance > talkRadius)
         {
+            infoWindow.SetActive(false);
             dialog.StopDialogue();
         }
     }

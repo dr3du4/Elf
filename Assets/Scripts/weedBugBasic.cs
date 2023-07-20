@@ -6,7 +6,8 @@ using UnityEngine;
 public class weedBugBasic: MonoBehaviour
 {
     [Range( 0.01f, 20.0f )] [SerializeField] private float moveSpeed = 1.0f; 
-    
+    public List<Sword> dropList;
+
     
     private bool isFacingRight=false;
     private Animator animator;
@@ -98,6 +99,10 @@ public class weedBugBasic: MonoBehaviour
         }
     }
 
+    void Drop()
+    {
+        
+    }
 
     private void Flip()
     {
