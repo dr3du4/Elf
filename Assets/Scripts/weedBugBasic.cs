@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public class weedBugBasic: MonoBehaviour
 {
     [Range( 0.01f, 20.0f )] [SerializeField] private float moveSpeed = 1.0f; 
     public List<Sword> dropList;
-
-    
+    public Statistic stats;
+    //public Interactions interactions;
     private bool isFacingRight=false;
     private Animator animator;
     public float moveRange = 1.0f;
@@ -90,13 +91,16 @@ public class weedBugBasic: MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {   
        if (other.CompareTag("Weapon") == true && Input.GetKey(KeyCode.Space) == true)
-        {   Debug.Log("Weapon touched");
-            healthPoints -= SwordDisplay.damage;
-            if (healthPoints <= 0)
-            {   Debug.Log("Deduwa");
-                Destroy(gameObject);
-            }
-        }
+       {   Debug.Log("Weapon touched");
+
+           healthPoints = stats.attack;
+           Debug.Log(healthPoints);
+           // Debug.Log(interactions);
+           if (healthPoints <= 0)
+           {   Debug.Log("Deduwa");
+               Destroy(gameObject);
+           }
+       }
     }
 
     void Drop()

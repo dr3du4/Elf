@@ -17,7 +17,7 @@ public class Interactions : MonoBehaviour
         
     }
 
-    int GetDamage(int health)
+    public int GetDamage(int health)
     {
         health = health - stats.attack;
         return health;
