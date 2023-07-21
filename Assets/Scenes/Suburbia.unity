@@ -77739,8 +77739,9 @@ GameObject:
   - component: {fileID: 916636548}
   - component: {fileID: 916636547}
   - component: {fileID: 916636546}
+  - component: {fileID: 916636550}
   m_Layer: 0
-  m_Name: Square
+  m_Name: LavaTurtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77755,8 +77756,9 @@ Animation:
   m_GameObject: {fileID: 916636545}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 26f8d1a13150060428a70168cc6515ab, type: 2}
-  m_Animations: []
+  m_Animation: {fileID: 7400000, guid: 3485f911e19585048a82c764c9d08591, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 3485f911e19585048a82c764c9d08591, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -77821,8 +77823,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -978816177, guid: 12dc9c6a061859345a1139555c35e685, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -77841,13 +77843,39 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916636545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.39, y: -9.33, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -28.73, y: -9.43, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &916636550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916636545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32629efdeaf84574ba60162cf59e22a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2.7
+  dropList: []
+  stats:
+    level: 0
+    hp: 0
+    mana: 0
+    gold: 0
+    def: 0
+    attack: 0
+    speed: 0
+    knowladge: 0
+    power: 0
+  moveRange: 2
+  weapon: {fileID: 0}
 --- !u!1 &922584832
 GameObject:
   m_ObjectHideFlags: 0
