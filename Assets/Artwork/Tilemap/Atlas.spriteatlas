@@ -280,6 +280,7 @@ SpriteAtlas:
   - {fileID: -394724690, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -1879964251, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: 1872323177, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
+  - {fileID: 1760390775, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: 851339911, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -1668158786, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
   - {fileID: -722657392, guid: 096a19b6f64c006488fc79e1b211a827, type: 3}
@@ -583,6 +584,7 @@ SpriteAtlas:
   - TilesetHouse_126
   - TilesetHouse_150
   - TilesetHouse_146
+  - TilesetHouse_199
   - TilesetHouse_129
   - TilesetHouse_151
   - TilesetHouse_145

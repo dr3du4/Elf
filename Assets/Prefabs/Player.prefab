@@ -802,7 +802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000000007450581, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000000014901161, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8033600712802286921
@@ -1028,3 +1028,13 @@ MonoBehaviour:
   Sword: {fileID: 11400000, guid: 3cd75d78de693084795bcff98cf794e4, type: 2}
   spriteRenderer: {fileID: 1660505475644069959}
   artwork: {fileID: 0}
+  stats:
+    level: 0
+    hp: 0
+    mana: 0
+    gold: 0
+    def: 0
+    attack: 0
+    speed: 0
+    knowladge: 0
+    power: 0
