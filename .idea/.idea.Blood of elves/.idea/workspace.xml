@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e644ccc7-1a55-4cea-b3ce-b5e9aeb40bfc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blood of elves/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Square.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Square.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Walk_Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Walk_Right.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Tilemap/Atlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Tilemap/Atlas.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Tilemap/New Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Tilemap/New Palette.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Artwork/Tilemap/TilesetHouse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Tilemap/TilesetHouse.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Suburbia.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Suburbia.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTalkingScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Statistic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/basketRed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/Sword.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,7 +76,7 @@
       <workItem from="1689701968346" duration="4618000" />
       <workItem from="1689791952951" duration="7273000" />
       <workItem from="1689871847822" duration="3786000" />
-      <workItem from="1689972365664" duration="4561000" />
+      <workItem from="1689972365664" duration="5189000" />
     </task>
     <servers />
   </component>
