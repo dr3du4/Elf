@@ -14,14 +14,7 @@ public class basketGreen : MonoBehaviour
     public Sprite emptyBox;
 
     
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("player") )
-        {
-            
-        }
-       
-    }
+  
     void Update()
     {
         
@@ -47,11 +40,12 @@ public class basketGreen : MonoBehaviour
             
             
         }
+        Debug.Log(distance);
     }
 
     void Awake()
     {
-        fullBox = GetComponent<SpriteRenderer>();
+       // fullBox = GetComponent<SpriteRenderer>();
         
     }
 }
