@@ -1,17 +1,14 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class basketGreen : MonoBehaviour
+public class Herb : MonoBehaviour
 {
-   
     public GameObject player;
-    public GameObject basket;
+    public GameObject herb;
     public float grabRadius;
     public GameObject infoWindow;
-    public SpriteRenderer fullBox;
-    public Sprite emptyBox;
+    
 
     
   
@@ -19,7 +16,7 @@ public class basketGreen : MonoBehaviour
     {
         
         Vector3 position1 = player.transform.position;
-        Vector3 position2 = basket.transform.position;
+        Vector3 position2 = herb.transform.position;
         float distance = Vector3.Distance(position1, position2);
 
         if (distance < grabRadius  && infoWindow != null)
@@ -30,11 +27,10 @@ public class basketGreen : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G) && distance < grabRadius)
         {
             Debug.Log("DAJ MNIE TO");
-            fullBox.sprite=emptyBox;
-            Destroy(infoWindow);
+            Destroy(herb);
         }
 
-        if (distance > grabRadius && infoWindow != null)
+        if (distance > grabRadius && herb != null)
         {
             infoWindow.SetActive(false);
             
@@ -43,9 +39,4 @@ public class basketGreen : MonoBehaviour
         
     }
 
-    void Awake()
-    {
-       // fullBox = GetComponent<SpriteRenderer>();
-        
-    }
 }
