@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 166695579702906259}
   - component: {fileID: 166695579702906258}
   m_Layer: 0
-  m_Name: Herb_7
+  m_Name: Bukuryo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 623091265, guid: 9dee3a981df6752469b0a4f110997433, type: 3}
+  m_Sprite: {fileID: -1112205076, guid: 9dee3a981df6752469b0a4f110997433, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

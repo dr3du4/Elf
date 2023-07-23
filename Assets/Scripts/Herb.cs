@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class Herb : MonoBehaviour
 {
     public GameObject player;
     public GameObject herb;
     public float grabRadius;
     public GameObject infoWindow;
-    
+    public TMP_Text name;
 
     
   
@@ -23,6 +23,7 @@ public class Herb : MonoBehaviour
         {
             
             infoWindow.SetActive(true);
+            
         }
         if (Input.GetKeyDown(KeyCode.G) && distance < grabRadius)
         {
@@ -38,5 +39,7 @@ public class Herb : MonoBehaviour
         }
         
     }
+
+ 
 
 }
