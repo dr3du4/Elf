@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -714,9 +714,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpriteSheet 5_14: -1967124355
       SpriteSheet 5_15: 11915773
-      SpriteSheet 5_24: -468146223
+      SpriteSheet 5_13: -34297607
       SpriteSheet 5_16: -403476888
       SpriteSheet 5_4: -1322359726
       SpriteSheet 5_7: -1939751019
@@ -735,13 +734,14 @@ TextureImporter:
       SpriteSheet 5_22: 1027138118
       SpriteSheet 5_18: -1990772598
       SpriteSheet 5_27: 844391422
+      SpriteSheet 5_24: -468146223
       SpriteSheet 5_21: -700717043
-      SpriteSheet 5_12: 2041570309
-      SpriteSheet 5_13: -34297607
-      SpriteSheet 5_3: -541618796
+      SpriteSheet 5_14: -1967124355
       SpriteSheet 5_19: -466258275
-      SpriteSheet 5_0: -67684135
+      SpriteSheet 5_3: -541618796
       SpriteSheet 5_9: 329069437
+      SpriteSheet 5_0: -67684135
+      SpriteSheet 5_12: 2041570309
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
