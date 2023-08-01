@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4565859707133672713}
   - component: {fileID: 4565859707133672712}
-  - component: {fileID: 4565859707133672715}
   - component: {fileID: 4565859707133672714}
   m_Layer: 0
   m_Name: Plant
@@ -86,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4565859707133672715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4565859707133672725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32629efdeaf84574ba60162cf59e22a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2.7
-  dropList: []
-  stats:
-    level: 0
-    hp: 0
-    mana: 0
-    gold: 0
-    def: 0
-    attack: 0
-    speed: 0
-    knowladge: 0
-    power: 0
-  moveRange: 2
-  weapon: {fileID: 0}
 --- !u!61 &4565859707133672714
 BoxCollider2D:
   m_ObjectHideFlags: 0
