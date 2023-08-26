@@ -337,7 +337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2668372789595224826
 RectTransform:
   m_ObjectHideFlags: 0
@@ -506,8 +506,9 @@ GameObject:
   - component: {fileID: 2668372790870083489}
   - component: {fileID: 2668372790870083490}
   - component: {fileID: 2668372790870083491}
-  - component: {fileID: 2668372790870083492}
-  - component: {fileID: 2668372790870083493}
+  - component: {fileID: 1826539181484841533}
+  - component: {fileID: 5890708201422172576}
+  - component: {fileID: 53469985549789357}
   m_Layer: 0
   m_Name: Monk
   m_TagString: Untagged
@@ -603,8 +604,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &2668372790870083492
-BoxCollider2D:
+--- !u!58 &1826539181484841533
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -616,20 +617,26 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.015859604, y: -0.05286336}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.8555107, y: 0.8942733}
-  m_EdgeRadius: 0
---- !u!114 &2668372790870083493
+  m_Radius: 0.4
+--- !u!58 &5890708201422172576
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668372790870083494}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5
+--- !u!114 &53469985549789357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -638,14 +645,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 2668372790870083494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3affd66669305b24eb25109b89e665e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 32a24b7cd15a3fb44b8bce0f4c56652d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collider: {fileID: 5890708201422172576}
+  filter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
   dialog: {fileID: 0}
-  startTalking: 0
-  player: {fileID: 0}
-  NPC: {fileID: 2668372790870083494}
-  talkRadius: 2
+  startTalking: 1
   infoWindow: {fileID: 2668372789595224827}
 --- !u!1 &2668372791249897533
 GameObject:
