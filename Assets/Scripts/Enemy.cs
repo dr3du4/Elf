@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float moveRange = 1.0f;
     private float startPositionX;
     private bool isFacingRight=false;
-    private bool isMovingRight = true;
+    public bool isMovingRight = true;
     
     private int healthPoints = 40;
     private Animator animator;
@@ -18,12 +18,12 @@ public class Enemy : MonoBehaviour
     public Weapon weapon;
     public Statistic stats;
     public List<Sword> dropList;
-    public Move move;
+    public Move moving;
     
     // Update is called once per frame
     void Update()
     {
-        move.Moving(moveRange, isFacingRight,isMovingRight,startPositionX,moveSpeed);
+        isMovingRight=moving.Moving(moveRange, isFacingRight,isMovingRight,startPositionX,moveSpeed);
     }
 
    

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     
-    public void Moving(float moveRange, bool isFacingRight,bool isMovingRight, float startPositionX, float Speed)
+    public  bool Moving(float moveRange, bool isFacingRight,bool isMovingRight, float startPositionX, float Speed)
     {
         if (isMovingRight == true)
         {
@@ -15,7 +15,9 @@ public class Move : MonoBehaviour
             }
             else
             {
+                isMovingRight = false;
                 MoveLeft(Speed, isFacingRight, isMovingRight);
+                //isFacingRight=Flip(isFacingRight);
             }
         }
         else
@@ -26,38 +28,44 @@ public class Move : MonoBehaviour
             }
             else
             { 
+                isMovingRight = true;
                MoveRight(Speed, isFacingRight, isMovingRight);
-               Flip(isFacingRight);
+               
             }
         }
+
+        return isMovingRight;
     }
-    void MoveRight(float moveSpeed,bool isFacingRight,bool isMovingRight)
+    bool MoveRight(float moveSpeed,bool isFacingRight,bool isMovingRight)
     {
         transform.Translate( moveSpeed * Time.deltaTime, 0.0f, 0.0f, Space.World );
         isMovingRight = true;
-        if (isFacingRight == false)  
+        if (isFacingRight == false)
         {
-            Flip(isFacingRight); 
+            isFacingRight = true;
         }
+        return isMovingRight;
     }
 
-    void MoveLeft(float moveSpeed,bool isFacingRight,bool isMovingRight)
+    bool MoveLeft(float moveSpeed,bool isFacingRight,bool isMovingRight)
     {
         
         transform.Translate(-moveSpeed * Time.deltaTime, 0.0f, 0.0f, Space.World);
         isMovingRight = false;
         if (isFacingRight == true)
         {
-            Flip(isFacingRight);
+            isFacingRight=false;
         }
+
+        return isMovingRight;
     }
-    private void Flip(bool isFacingRight)
+    bool Flip(bool isFacingRight)
     {
          
         isFacingRight = !isFacingRight;
         Vector3 theScale = transform.localScale;
         theScale.x = -theScale.x;
         transform.localScale = theScale;
-        
+        return isFacingRight;
     }
 }

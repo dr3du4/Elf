@@ -77395,6 +77395,17 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 88da70affcac4c44eb4a64301200a0fd, type: 3}
+--- !u!114 &600988772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 579883855268998675, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
+  m_PrefabInstance: {fileID: 7620835122952499138}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fbbb9e97360c44785abc1b266e1e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &604416624
 GameObject:
   m_ObjectHideFlags: 0
@@ -80300,6 +80311,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384895866}
   m_CullTransparentMesh: 1
+--- !u!114 &1394432882 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4717444818774803588, guid: bf3392014a5617b4689a06b9e30d3b01, type: 3}
+  m_PrefabInstance: {fileID: 2146905849}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a629464bc5e9e468358b4296b530c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1428237159
 GameObject:
   m_ObjectHideFlags: 0
@@ -95659,6 +95681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1229412932718064017, guid: 77d364cf33ee3c1418d0958dc938e72a, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     - target: {fileID: 1229412932718064019, guid: 77d364cf33ee3c1418d0958dc938e72a, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -95706,6 +95732,10 @@ PrefabInstance:
     - target: {fileID: 1229412932718064031, guid: 77d364cf33ee3c1418d0958dc938e72a, type: 3}
       propertyPath: m_Name
       value: Dragonfly
+      objectReference: {fileID: 0}
+    - target: {fileID: 1229412932718064031, guid: 77d364cf33ee3c1418d0958dc938e72a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77d364cf33ee3c1418d0958dc938e72a, type: 3}
@@ -95790,6 +95820,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Genius
       objectReference: {fileID: 0}
+    - target: {fileID: 2287547368421102261, guid: 4c95b2f3b43d69a4c9afebb1e63153c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287547368421102263, guid: 4c95b2f3b43d69a4c9afebb1e63153c6, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     - target: {fileID: 2287547368421102281, guid: 4c95b2f3b43d69a4c9afebb1e63153c6, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -95912,6 +95950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Treant
       objectReference: {fileID: 0}
+    - target: {fileID: 2942744405304812865, guid: 921891b0710322340b0e51a4dbb8cda2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2942744405304812877, guid: 921891b0710322340b0e51a4dbb8cda2, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -95964,6 +96006,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2942744405304812879, guid: 921891b0710322340b0e51a4dbb8cda2, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921891b0710322340b0e51a4dbb8cda2, type: 3}
 --- !u!1001 &3483208658118358220
@@ -95973,6 +96019,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3483208657081295885, guid: be543634df279c54fb9fd16cd2d1af30, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     - target: {fileID: 3483208657081295887, guid: be543634df279c54fb9fd16cd2d1af30, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -96029,6 +96079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pumpkin
       objectReference: {fileID: 0}
+    - target: {fileID: 3483208657081295987, guid: be543634df279c54fb9fd16cd2d1af30, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be543634df279c54fb9fd16cd2d1af30, type: 3}
 --- !u!1 &3585010694715478380 stripped
@@ -96047,6 +96101,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frog
       objectReference: {fileID: 0}
+    - target: {fileID: 3818397808285049458, guid: 842681ef42f0a7b4cac25f5e33e645e9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3818397808285049468, guid: 842681ef42f0a7b4cac25f5e33e645e9, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     - target: {fileID: 3818397808285049470, guid: 842681ef42f0a7b4cac25f5e33e645e9, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -96113,6 +96175,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7392593953343748872, guid: fd5d7ca80abd8f6419f5c2cc6c70f589, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     - target: {fileID: 7392593953343748875, guid: fd5d7ca80abd8f6419f5c2cc6c70f589, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -96168,6 +96234,10 @@ PrefabInstance:
     - target: {fileID: 7392593953343748879, guid: fd5d7ca80abd8f6419f5c2cc6c70f589, type: 3}
       propertyPath: m_Name
       value: Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392593953343748879, guid: fd5d7ca80abd8f6419f5c2cc6c70f589, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd5d7ca80abd8f6419f5c2cc6c70f589, type: 3}
@@ -96233,6 +96303,10 @@ PrefabInstance:
     - target: {fileID: 4565859707133672725, guid: 631b7db368228da4e858129be0a68c81, type: 3}
       propertyPath: m_Name
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565859707133672725, guid: 631b7db368228da4e858129be0a68c81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 631b7db368228da4e858129be0a68c81, type: 3}
@@ -96308,9 +96382,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4141692267118346587, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
+      propertyPath: moving
+      value: 
+      objectReference: {fileID: 600988772}
+    - target: {fileID: 4141692267118346587, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
+    - target: {fileID: 4141692267118346587, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
+      propertyPath: moveRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4141692267118346587, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
+      propertyPath: moveSpeed
+      value: 6.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7620835121895596083, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
       propertyPath: m_Name
       value: WeedBug
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620835121895596083, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7620835121895596084, guid: df9fd45c82d4a4741b0539c99352e289, type: 3}
       propertyPath: m_RootOrder
@@ -96424,6 +96518,10 @@ PrefabInstance:
     - target: {fileID: 8438166126889813844, guid: 5f5b28a2b3f94ce45820d83851e2da86, type: 3}
       propertyPath: m_Name
       value: LavaTurtle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438166126889813844, guid: 5f5b28a2b3f94ce45820d83851e2da86, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f5b28a2b3f94ce45820d83851e2da86, type: 3}
@@ -96551,9 +96649,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8561997215173050770, guid: 52bba92279896b64f8a66549d165f6e3, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     - target: {fileID: 8561997215173050772, guid: 52bba92279896b64f8a66549d165f6e3, type: 3}
       propertyPath: m_Name
       value: Fairy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561997215173050772, guid: 52bba92279896b64f8a66549d165f6e3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52bba92279896b64f8a66549d165f6e3, type: 3}
@@ -96620,5 +96726,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shroom
       objectReference: {fileID: 0}
+    - target: {fileID: 8838479588426876521, guid: 228a52535bcc5ce4a98a0750c0ce80ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838479588426876523, guid: 228a52535bcc5ce4a98a0750c0ce80ce, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1394432882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 228a52535bcc5ce4a98a0750c0ce80ce, type: 3}
