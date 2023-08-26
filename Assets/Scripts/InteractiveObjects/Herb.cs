@@ -2,44 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class Herb : MonoBehaviour
+public class Herb : Collidable
 {
-    public GameObject player;
-    public GameObject herb;
-    public float grabRadius;
-    public GameObject infoWindow;
-    public TMP_Text name;
-
+    public GameObject hoverText;
+    public GameObject plant;
+    private bool isFull = true;
     
-  
-    void Update()
+    
+
+    protected override void OnCollide(Collider2D coll)
     {
-        
-        Vector3 position1 = player.transform.position;
-        Vector3 position2 = herb.transform.position;
-        float distance = Vector3.Distance(position1, position2);
-
-        if (distance < grabRadius  && infoWindow != null)
+        if (coll.CompareTag("Player"))
         {
+            if(hoverText)
+                hoverText.SetActive(true);
             
-            infoWindow.SetActive(true);
+            if (Input.GetKey(KeyCode.G)&&isFull)
+            {
+                Destroy(plant);
+                isFull = false;
+                
+                Destroy(hoverText);
+                
+            }
             
         }
-        if (Input.GetKeyDown(KeyCode.G) && distance < grabRadius)
-        {
-            Debug.Log("DAJ MNIE TO");
-            Destroy(herb);
-        }
-
-        if (distance > grabRadius && herb != null)
-        {
-            infoWindow.SetActive(false);
-            
-            
-        }
+      
         
     }
-
- 
-
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            
+            hoverText.SetActive(false);
+        }
+    }
+    
 }
