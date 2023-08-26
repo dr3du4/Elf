@@ -16,8 +16,11 @@ public class Move : MonoBehaviour
             else
             {
                 isMovingRight = false;
+                Vector3 theScale = transform.localScale;
+                theScale.x = -theScale.x;
+                transform.localScale = theScale;
                 MoveLeft(Speed, isFacingRight, isMovingRight);
-                //isFacingRight=Flip(isFacingRight);
+                
             }
         }
         else
@@ -29,6 +32,9 @@ public class Move : MonoBehaviour
             else
             { 
                 isMovingRight = true;
+                Vector3 theScale = transform.localScale;
+                theScale.x = -theScale.x;
+                transform.localScale = theScale;
                MoveRight(Speed, isFacingRight, isMovingRight);
                
             }

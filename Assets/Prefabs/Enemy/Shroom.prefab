@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8838479588426876517}
   - component: {fileID: 8838479588426876516}
-  - component: {fileID: 8838479588426876523}
   - component: {fileID: 8838479588426876522}
+  - component: {fileID: 3688448808662176812}
+  - component: {fileID: 5264631824620446576}
   m_Layer: 0
   m_Name: Shroom
   m_TagString: enemy
@@ -86,32 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8838479588426876523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8838479588426876521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32629efdeaf84574ba60162cf59e22a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2.7
-  dropList: []
-  stats:
-    level: 0
-    hp: 0
-    mana: 0
-    gold: 0
-    def: 0
-    attack: 0
-    speed: 0
-    knowladge: 0
-    power: 0
-  moveRange: 2
-  weapon: {fileID: 0}
 --- !u!61 &8838479588426876522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -138,3 +113,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15882427, y: 0.32081258}
   m_EdgeRadius: 0
+--- !u!114 &3688448808662176812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8838479588426876521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065acc98eac7ec145975b08bd8d43ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  moveRange: 1
+  isMovingRight: 1
+  weapon: {fileID: 0}
+  stats:
+    level: 0
+    hp: 0
+    mana: 0
+    gold: 0
+    def: 0
+    attack: 0
+    speed: 0
+    knowladge: 0
+    power: 0
+  dropList: []
+  moving: {fileID: 5264631824620446576}
+--- !u!114 &5264631824620446576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8838479588426876521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fbbb9e97360c44785abc1b266e1e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

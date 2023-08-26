@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8561997215173050768}
   - component: {fileID: 8561997215173050769}
-  - component: {fileID: 8561997215173050770}
   - component: {fileID: 8561997215173050771}
+  - component: {fileID: 8116922350115484226}
+  - component: {fileID: 2085984743421754190}
   m_Layer: 0
   m_Name: Fairy
   m_TagString: enemy
@@ -86,32 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8561997215173050770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8561997215173050772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32629efdeaf84574ba60162cf59e22a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2.7
-  dropList: []
-  stats:
-    level: 0
-    hp: 0
-    mana: 0
-    gold: 0
-    def: 0
-    attack: 0
-    speed: 0
-    knowladge: 0
-    power: 0
-  moveRange: 2
-  weapon: {fileID: 0}
 --- !u!61 &8561997215173050771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -138,3 +113,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.09723917, y: 0.26021993}
   m_EdgeRadius: 0
+--- !u!114 &8116922350115484226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561997215173050772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065acc98eac7ec145975b08bd8d43ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  moveRange: 1
+  isMovingRight: 1
+  weapon: {fileID: 0}
+  stats:
+    level: 0
+    hp: 0
+    mana: 0
+    gold: 0
+    def: 0
+    attack: 0
+    speed: 0
+    knowladge: 0
+    power: 0
+  dropList: []
+  moving: {fileID: 2085984743421754190}
+--- !u!114 &2085984743421754190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561997215173050772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fbbb9e97360c44785abc1b266e1e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
