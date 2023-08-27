@@ -6853,7 +6853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 166695579912844622, guid: fb7383c9ff0ef2d4baf2e012c984bbd3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb7383c9ff0ef2d4baf2e012c984bbd3, type: 3}
@@ -73164,11 +73164,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &497361982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 819403563158395019, guid: dac3e6d5d397fb1459b39336fe305e2f, type: 3}
-  m_PrefabInstance: {fileID: 1557009596}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &501519481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80224,7 +80219,7 @@ MonoBehaviour:
   dialog: {fileID: 1750933513}
   startTalking: 0
   player: {fileID: 4163257569708044024}
-  trader: {fileID: 497361982}
+  trader: {fileID: 0}
   talkRadius: 1.75
   infoWindow: {fileID: 3585010694715478380}
 --- !u!114 &1345285916

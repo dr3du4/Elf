@@ -145,7 +145,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1914898463109814253}
   - component: {fileID: 1914898463109814252}
-  - component: {fileID: 1914898463109814255}
+  - component: {fileID: 6024304137752064238}
+  - component: {fileID: 6722445725189696837}
+  - component: {fileID: 4680558057390045171}
   m_Layer: 0
   m_Name: BasketBlue
   m_TagString: Untagged
@@ -221,7 +223,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1914898463109814255
+--- !u!114 &6024304137752064238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,15 +232,59 @@ MonoBehaviour:
   m_GameObject: {fileID: 1914898463109814254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6fdf5123ccedee4f8eb006ae904a74e, type: 3}
+  m_Script: {fileID: 11500000, guid: a7a3b32e84c0e4941934976151d29325, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 4163257570549579777, guid: bf3392014a5617b4689a06b9e30d3b01, type: 3}
-  basket: {fileID: 1914898463109814254}
-  grabRadius: 1
-  infoWindow: {fileID: 0}
-  fullBox: {fileID: 1914898463109814252}
-  emptyBox: {fileID: 21300000, guid: 30b6211ff16a85c459732bdbf468df7e, type: 2}
+  Collider: {fileID: 4680558057390045171}
+  filter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  hoverText: {fileID: 7540863782179766753}
+  fullBasket: {fileID: 1914898463109814252}
+  emptyBasket: {fileID: 21300000, guid: 30b6211ff16a85c459732bdbf468df7e, type: 2}
+--- !u!58 &6722445725189696837
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914898463109814254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!58 &4680558057390045171
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914898463109814254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5
 --- !u!1 &3784507353600648555
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6556391447266000273
 RectTransform:
   m_ObjectHideFlags: 0
