@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 76829e96a90fa564cbf4352f2ffb2afe
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mystic Soul
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a65259ef9777624438fdd04da26d3080, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
