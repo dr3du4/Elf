@@ -13,7 +13,7 @@ public class ButtonMenuMenager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Suburbia");
+        SceneManager.LoadSceneAsync("Suburbia");
     }
 
    
