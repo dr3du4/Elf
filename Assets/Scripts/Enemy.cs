@@ -19,7 +19,8 @@ public class Enemy : MonoBehaviour
     public Statistic stats;
     public List<Sword> dropList;
     public Move moving;
-    
+
+    public SwordDisplay sword;
     // Update is called once per frame
     void Update()
     {
@@ -53,17 +54,21 @@ public class Enemy : MonoBehaviour
 
     void Fight(Collider2D other)
     {
-        if (other.CompareTag("Weapon") == true && Input.GetKey(KeyCode.Space) == true)
-        {
+        if (other.CompareTag("Weapon") == true)
+        {   
+            if (Input.GetKey(KeyCode.Space) == true)
+            {  
+                //sprawdzic strukture stats
+                healthPoints -= sword.damage;
+                Debug.Log(healthPoints);
+                if (healthPoints <= 0)
+                {
+                    Destroy(gameObject);
+                }
 
-            //TODO sprawdzic strukture stats
-            healthPoints = healthPoints - stats.attack;
-
-            if (healthPoints <= 0)
-            {
-                Destroy(gameObject);
             }
-        }
-    }
 
+        }
+
+    }
 }

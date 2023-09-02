@@ -9,7 +9,7 @@ public class SwordDisplay : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Image artwork;
     public Statistic stats;
-    public static int damage;
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,7 @@ public class SwordDisplay : MonoBehaviour
             //damage = Sword.attack;
             stats.attack = stats.attack + Sword.attack;
             Debug.Log(stats.attack);
+            damage = stats.attack;
         }
     }
 
