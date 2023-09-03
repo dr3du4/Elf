@@ -54,7 +54,8 @@ public class Player : MonoBehaviour
             transform.Translate(0.0f, -moveSpeed * Time.deltaTime, 0.0f, Space.World);
         }
 
-        
+
+      
         //Debug.DrawRay(transform.position,rayLength*Vector3.down, Color.white,1,false);
         
         

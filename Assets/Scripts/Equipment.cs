@@ -8,6 +8,7 @@ public class Equipment : MonoBehaviour
     public bool isActive = false;
 
     public GameObject window;
+    public InventorManager inventory;
     
     // Start is called before the first frame update
   
@@ -20,9 +21,11 @@ public class Equipment : MonoBehaviour
             Debug.Log("ZAMKNIECIE");
             isActive = false;
             window.SetActive(false);
+            
         }       
         else if (Input.GetKeyDown(KeyCode.I) && isActive==false)
         {
+            inventory.ListItems();
             Debug.Log("OTWARCIE");
             isActive = true;
             window.SetActive(true);
