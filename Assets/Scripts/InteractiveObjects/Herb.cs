@@ -7,7 +7,7 @@ public class Herb : Collidable
     public GameObject hoverText;
     public GameObject plant;
     private bool isFull = true;
-    
+    public ItemPickup pick;
     
 
     protected override void OnCollide(Collider2D coll)
@@ -19,6 +19,7 @@ public class Herb : Collidable
             
             if (Input.GetKey(KeyCode.G)&&isFull)
             {
+                pick.Pickup();
                 Destroy(plant);
                 isFull = false;
                 
