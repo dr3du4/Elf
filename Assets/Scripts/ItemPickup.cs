@@ -9,5 +9,6 @@ public class ItemPickup : MonoBehaviour
    public  void Pickup()
     {
         InventorManager.instance.Add(item);
+        
     }
 }

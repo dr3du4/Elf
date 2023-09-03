@@ -8,7 +8,7 @@ public class Herb : Collidable
     public GameObject plant;
     private bool isFull = true;
     public ItemPickup pick;
-    
+    public InventorManager manager;
 
     protected override void OnCollide(Collider2D coll)
     {
@@ -22,7 +22,7 @@ public class Herb : Collidable
                 pick.Pickup();
                 Destroy(plant);
                 isFull = false;
-                
+               
                 Destroy(hoverText);
                 
             }
