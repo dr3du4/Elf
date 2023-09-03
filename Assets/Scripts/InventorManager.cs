@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,6 +33,10 @@ public class InventorManager : MonoBehaviour
 
     public void ListItems()
     {
+        foreach (Transform item in ItemContent)
+        {
+            Destroy(item.gameObject);
+        }
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
